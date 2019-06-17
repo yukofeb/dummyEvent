@@ -18,13 +18,13 @@ router.get('/', function( req, res ) {
     res.json([
         {
             eventNo: 'req3',
-            eventName: `Event 3`,
+            eventName: 'Event 3',
             startDate: date1,
             endDate: date2
         },
         {
             eventNo: 'req4',
-            eventName: `Event 4`,
+            eventName: 'Event 4',
             startDate: date3,
             endDate: date4
         }
